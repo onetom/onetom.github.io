@@ -172,8 +172,17 @@ would be a great way for static-analysis based
   * rename symbol
   * rename keyword
   * rename namespace
-    * `Cmd-Shift-C` to copy full-path
+    * `Cmd-Shift-C` copies full-path, but we need the fully-qualified namespace
+      symbol
     * `clojure-lsp rename --from some.name.space --to other.name.space`
+      
+      https://clojure-lsp.io/
+      
+      ```shell
+      brew remove clojure-lsp
+      brew install clojure-lsp/brew/clojure-lsp-native
+      ```
+
   * extract variables
   * inline variables
   * extract function
